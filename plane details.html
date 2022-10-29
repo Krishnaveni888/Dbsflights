@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+<form action="/bookingpage.html" method="GET/POST">
+    
+ <div style="background-color:aquamarine ;">
+     <label for="dates">Dates</label>
+        <input type="date" id="datesid" name="date">
+    </div>
+    <div style="width: 100%;background-color:bisque; display: table;">
+        <div style="display: table-row">
+            <div style="width: 300px; display: table-cell;"> Air India</div>
+            <div style="width: 300px; display: table-cell;"> 2:00-4:30</div>
+            <div style="display: table-cell;"> RS.8500 </div>
+            <div><input name="Air India" type="submit" onclick="airindiaf()"></div>
+        </div>
+    </div>
+    <div style="width: 100%;background-color:antiquewhite; display: table;">
+        <div style="display: table-row">
+            <div style="width: 300px; display: table-cell;">SpiceJet</div>
+            <div style="width: 300px; display: table-cell;"> 6:00-8:30</div>
+            <div style="display: table-cell;"> RS.8000 </div>
+            <div><input name="SpiceJet" type="submit" onclick="spicejetf()"></div>
+        </div>
+    </div>
+    <div style="width: 100%;background-color: aquamarine; height: 40%;display: table;">
+        <div style="display: table-row">
+            <div style="width: 300px; display: table-cell;">AirAsia India</div>
+            <div style="width: 300px; display: table-cell;"> 14:00-16:00</div>
+            <div style="display: table-cell;"> RS.9500 </div>
+            <div><input name="AirAsia India" type="submit" onclick="airasiaf()"></div>
+        </div>
+    </div>
+    <div style="width: 100%; background-color: blanchedalmond;  height: 40%;display: table;">
+        <div style="display: table-row">
+            <div style="width: 300px; display: table-cell;">IndiGo</div>
+            <div style="width: 300px; display: table-cell;">18:00-19:00</div>
+            <div style="display: table-cell;"> RS.7500 </div>
+            <div><input name="IndiGo" type="submit" onclick="indigof()"></div>
+        </div>
+    </div>
+    <div style="width: 100%; background-color: aqua; height: 40%;display: table;">
+        <div style="display: table-row">
+            <div style="width: 300px; display: table-cell;"> Air India</div>
+            <div style="width: 300px; display: table-cell;">21:00-22:00</div>
+            <div style="display: table-cell;"> RS.9500 </div>
+            <div><input name="Air India" type="submit" onclick="airindiaf()"></div>
+        </div>
+    </div>
+    <div style="width: 100%; background-color: bisque; display: table;">
+        <div style="display: table-row">
+            <div style="width: 300px; display: table-cell;">Vistara </div>
+            <div style="width: 300px; display: table-cell;">22:30-23:40 </div>
+            <div style="display: table-cell;"> RS.8500 </div>
+            <div><input  name="Vistara" type="submit" onclick="vistaraf()"></div>
+        </div>
+    </div>
+    
+</div>
+</form>
+<script>
+    function airindiaf() {
+        window.location.href="paymentdetails.html";
+        var a=document.getElementById("datesid").value;
+        var b = document.getElementsByName('name').value,
+        url = 'http://path_to_your_html_files/bookingpage.html?name=' + encodeURIComponent(a)+encodeURIComponent(b);
+
+    document.location.href = url;
+
+      }
+      function spicejetff() {
+        window.location.href="paymentdetails.html";
+        var a=document.getElementById("datesid").value;
+        var b = document.getElementsByName('name').value,
+        url = 'http://path_to_your_html_files/bookingpage.html?name=' + encodeURIComponent(a)+encodeURIComponent(b);
+
+    document.location.href = url;
+
+      }
+      function airasiaf() {
+        window.location.href="paymentdetails.html";
+        var a=document.getElementById("datesid").value;
+        var b = document.getElementsByName('name').value,
+        url = 'http://path_to_your_html_files/bookingpage.html?name=' + encodeURIComponent(a)+encodeURIComponent(b);
+
+    document.location.href = url;
+
+      }
+      function indigof() {
+        window.location.href="paymentdetails.html";
+        var a=document.getElementById("datesid").value;
+        var b = document.getElementsByName('name').value,
+        url = 'http://path_to_your_html_files/bookingpage.html?name=' + encodeURIComponent(a)+encodeURIComponent(b);
+
+    document.location.href = url;
+
+      }
+      function airindiaf() {
+        window.location.href="paymentdetails.html";
+        var a=document.getElementById("datesid").value;
+        var b = document.getElementsByName('name').value,
+        url = 'http://path_to_your_html_files/bookingpage.html?name=' + encodeURIComponent(a)+encodeURIComponent(b);
+
+    document.location.href = url;
+
+      }
+      function vistaraff() {
+        window.location.href="paymentdetails.html";
+        var a=document.getElementById("datesid").value;
+        var b = document.getElementsByName('name').value,
+        url = 'http://path_to_your_html_files/bookingpage.html?name=' + encodeURIComponent(a)+encodeURIComponent(b);
+
+    document.location.href = url;
+
+      }
+    </script>
+</body>
+</html>
